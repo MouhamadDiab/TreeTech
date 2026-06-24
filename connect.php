@@ -12,7 +12,6 @@ if ($url) {
 
     $conn = mysqli_connect($host, $user, $pass, $name, $port);
 } else {
-    // Local XAMPP
     $conn = mysqli_connect("127.0.0.1", "root", "", "treetech");
 }
 
